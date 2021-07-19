@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laerton Santos</title>
+    <title>Formulario</title>
 </head>
 <body>
-Hi, i`m Designer
+    
+    <div>
+        <h1>Cadastro de Devs</h1>
+        <p>complete suas informações</p>
+
+    </div>
+
+    <form> 
+        <fieldset> 
+          <div>
+              <label>nome</label>
+              <input type="name" name="nome" id="nome">
+          </div>
+         
+          <div>
+              <label"> sobrenome</label>
+              <input type="text" nome="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+
+        <div>
+            <label">Email</label>
+            <input type="email" nome="email" id="email" >
+
+        </div>
+      
+        <div>
+            <label> de qual lado da aplicação voce desenvolve</label>
+            <input type="radio" nome="devweb" value="frontend">front-end
+        <label>
+        
+            <input type="radio" nome="devweb" value="back-end">back-end
+        </label>
+        
+        <label>
+            <input type="radio" nome="fullstack" value="fullstack">fullstack
+        </label>
+  </div>
+
+  <div>
+      <label>senioridade</label>
+      <select id="senioridade"> 
+          <option selected disabled value="">selecione</option>
+          <option>junior</option>
+          <option>pleno</option>
+          <option>senior</option>
+      </select>
+  </div>
+
+  <fieldset>
+      <div>
+          <label>selecione as tecnologias que utiliza</label>
+          <input type="checkbox" id="tecnologia1" nome="tecnologia1" value="html">
+          <label for="tecnogia1">html</label>
+
+      </div>
+  </fieldset>
+
+  <div>
+      <label for="">conte um pouco da sua experiencia</label>
+      <textarea row="6" style="width:26em" id="experiencia" name="experiencia"></textarea>
+  </div>
+
+
+    </form>
+
+
 </body>
 </html>
